@@ -25,10 +25,17 @@ body {
   background-color: var(--main-light-color);
   color: var(--brand-text);
 }
-
+.gap {
+  gap: 24px;
+}
+.section-padding {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 .link {
   text-decoration: none;
 }
+
 .container {
   width: 1188px;
   margin-left: auto;
@@ -167,7 +174,9 @@ body {
 
   text-align: center;
 }
-
+.container-oder {
+  text-align: center;
+}
 .oder-head-button:hover,
 .oder-head-button:focus {
   background: var(--secondory-background-button-color);
@@ -187,17 +196,12 @@ body {
   clip-path: inset(50%);
   margin: -1px;
 }
-.section {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
 .section-list-item {
   flex-basis: calc((100% - 72px) / 4);
 }
 .section-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
 }
 .section-list-item-head {
   font-weight: 500;
@@ -235,13 +239,10 @@ body {
 .device-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
 }
 /*-------------------TEAM------------------------------*/
 .team {
   background: var(--background);
-  padding-bottom: 120px;
-  padding-top: 120px;
 }
 .team-title {
   margin-bottom: 72px;
@@ -253,8 +254,8 @@ body {
 .team-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
 }
+
 .team-title {
   font-size: 36px;
   line-height: calc(40 / 36);
@@ -369,6 +370,7 @@ body {
   background: var(--main-light-color);
   color: var(--brand-text-color);
   flex-basis: calc((100%-48px) / 3);
+  border: 1px solid #e7e9fc;
 }
 .list-item {
   padding-top: 32px;
